@@ -7,7 +7,7 @@ function MainFooter() {
     <div className='mainFooter'>
         <div className='mainFooter-first'>
             <div className='mainFooter-img'>
-                <img src="https://alphasilver.productsalphawizz.com/uploads/media/2024/newlogo22.png" alt="" />
+                <img style={{borderRadius:"20px"}} src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIALgAxgMBIgACEQEDEQH/xAAbAAEAAQUBAAAAAAAAAAAAAAAABAEDBQYHAv/EAEEQAAEDAwEGAwMGCwkAAAAAAAABAgMEBREhBhIxQVFhE3GBB5GhIiMyM7HwFEJDUmJyc7LB0eEVFiQlkpOis/H/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDQgAaZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKxsdJIyNiK57lw1reKqUzjXPXT+Jv2wuznhMbdKyPD3p8w134ifnL3Xl55KMNdNk5qK0x1THK+ZqZqG9EXXKeX34GtemO3Q6vbr9b7lc6i3QvTej+i52qS/nbvkaXtjs8toq0np2KlFUL8nd/JO47vl07ZA1wD3egIAAAAAAAAAAAAAAAAAAAAAAAAABlNmrHUX+6Mo4UVsafKml5Rs5+q8v/AEoyuw+zS3ir/C6tn+BgcmUXhK7ju+XDP9dM/wC0DaFKGF1qoVxUyM+fc1fqmrwb5r8E15pjPbRXKj2OsUcFIxvjbvh0sPHPVzuycV7+enGqmWSofLNUSOkllVXPe7i5V4qoE91DcrXBQ3RWPgZM7ep5c41Th7+KdUOm2Wto9rrFJFUNasmNyphTTddyc3ommUXljHIve0SJqbGVKrwzFj/W05bs/eKmyXKOspvloibskKrhJGrxb58MdF165Bf7PUWO4SUdQiqiJmKXlIzkvmY70wdovNroNs9n45qORrlc3xKabgqO4Ki9E5KnLjyQ43VU81JUSU1TEsU8Tla9i8lQC2ACAAAAAAAAAAAAAAAAAAAAAAu0lLNW1cVLSxeJPM7cY3qv8uvl2U7daLZb9htmpJqt6OdG3xKmZvGV/DCeq4RO/c4dG98cjJInubI1yK1zVwrVTVFTvnXtjJ2jZLaKn2tsktLcmMfUsZuVUSphsjV03kTovwVPIDku0F4qr9dJK6qXCu0jj5Rt5NT36rzXJdudiqLdYKC5VS7i1z3+HEqa+GiJ8pemc6J0wZr+6rbVtvbrdWxrUUE86Oic7VJWJrheqpoi9fUz/tmfvUNs/Xl+xoGwe0pm7sNWKnNYVX/cacnuVhqaG0Wy7N1pK1uj0/JyIrvkr5omU66pyOqe0iTOxFYneH/saWrBT09d7NKelq4myROpJNF6o5yoqd0VEX0QDR/Z7tSlhuCUtY//ACypeiP6RO4I7y4IvbHTXcfaVsl/adGt3oGo+shj+dY38tH1Tuia90ynJDWfZpswlwqWXe4Ma6kgdmnY5PrZE/GXs34rpyXOU9pu1q4fYrfIuVTFW9q9fxE+1fROagczznC5z36gegAAAAAAAAAAAAAAAAAAAAAABMtFzqbPcIa6jfiSJ2rV+i5vNq9UX78iGCjuFDW0G0FFR17I99I5EljR30opE4pnrrhexqntbfvUls1zh8mvohquyd/ksVfl+86jlVEmYiZx+kndPjw6Gw+02Zk1DbZI3NexzpFa5q5RyYbhU7AbF7QZM7HVafsv32l/Y5WybH0ML3Ya+F7V5aK5339xj9uZM7KVSfs/32lqzXaC0bEUlTUqu62JUa1OL3K5cNTv9+SgTdrNoIdmrRHSW5rGVL2eHTRNT6liaZ9Pivqcje5z3ue9yuc5VVzl4qq8VUkXK4VFzrZaysdvyPdlUTgzoidkTQjcOnoAABAAAAAAAAAAAAAAAAAAAAAAAAAx0JM1dNNboqOV2Y4HvdH+jvJqnlnX1IxTrhcd/vzKOlbZSb2zVQ3vGn/JDn1TXTVNNS08j/mqdm7G3lquVVe+uCdcb/U11rho5EwjPrH8d/H0fcYn756gPMAEAAAAAAAAAAAAAAAAAAAAABkbBTQ1dybFUMR7NxV3UXC595LZS22vp6xKSCSnmpmbyLvqrXceOf1SJYKiGluTZah/hs3FTexlMnqrvVXPFJA3wmROVUXw2YVyevoBS5UsEFvts0TFY+aNyvVdcqiIqfaeLJRNra1Wy6QxtV8i5xhqeXp8SfI63VtvoYp6/wAF8EerfCV3Hj7sFKatobZQTMhc2rkmkVFa9Fa1Wcs6c0+0Cxc6SmobjDKkSy0Urd9rUXVyY4Z49FJVTHaIbfT1X4C9Un3mp86umPUtVlwpbjaVjdG2mmgdmGNmVRyY5aaaZ+BYramCWz0EDJd6WNzt9mumc4ArNRU6Wq3zNjxJNLiTXimV7l/aGzspW/hNC35pvyZW72dxeS9eaFmargW026HxMyQy5kbj6KZXsSp7vFHe5JWP8aima1krVboqYxnC9P59QLj7XRptCyl8H5l0G/u76/SyvMgWOjgqrq+CZm8xrXKibypqi/1JVXdYI7/FVxL40LYvDdutxjj/AEKwT2y2yT1lLVPnke1Ujj3MYz19wCx2qlr7XI+VMTOe5jH7ypj5KKnPkpWxWWKaOV9wZpveG1uVTKp9JdF5ESkuEdNYlZHIiVTalJWNxroicV9FTj1Mgl+gnu1M9XLDTxscrspj5S+QGuTojZ5GpwRyonvPB7mcjppHNXLVeqp5ZPAAAAAAAAAAAAAAAAAAAAF+iumOql90DN5UbJokaPXTrjT4kfyPayPxq53DCY6cce9Ci42nc5ysR2q7mv62MfaeZ4/DwqSIqKnLjoU8aTda1ZHI1uiJko+Rz1y92958gLz6ZPGa1rlRHSbmvkn8zyymVzInb2kj0YnnnB4bNI3OJHJnireZTxH4wr3J2Re+QPccKPRqq/DVR65x+bxKLDhiPV281UTXzXH8FKPmkeqq+RVymNeQdIro2MREw3gic1XT+AFtO5UomMJjoVIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/9k=" alt="" />
             </div>
             <div className='mainFooter-div'>
                 <div>
@@ -15,16 +15,16 @@ function MainFooter() {
                 </div>
                 <div className='mainFooter-div-div'>
                     <div className='mainFooter-header'>
-                        <Link to={"/"}><div className='mainFooter-header-div'>Home</div></Link>
-                        <Link to={"/"}><div className='mainFooter-header-div'>Products</div></Link>
-                        <Link to={"/login"}><div className='mainFooter-header-div'>Register</div></Link>
-                        <Link to={"/"}><div className='mainFooter-header-div'>Countact Us</div></Link>
+                        <Link className='link' to={"/"}><div className='mainFooter-header-div'>Home</div></Link>
+                        <Link className='link' to={"/"}><div className='mainFooter-header-div'>Products</div></Link>
+                        <Link className='link' to={"/login"}><div className='mainFooter-header-div'>Register</div></Link>
+                        <Link className='link' to={"/"}><div className='mainFooter-header-div'>Countact Us</div></Link>
                     </div>
                     <div className='mainFooter-header'>
-                    <Link to={"/category"}><div className='mainFooter-header-div'>Category</div></Link>
-                    <Link to={"/login"}><div className='mainFooter-header-div'>Login</div></Link>
-                    <Link to={"/"}><div className='mainFooter-header-div'>About Us</div></Link>
-                    <Link to={"/"}><div className='mainFooter-header-div'>Seller</div></Link>
+                    <Link className='link' to={"/category"}><div className='mainFooter-header-div'>Category</div></Link>
+                    <Link className='link' to={"/login"}><div className='mainFooter-header-div'>Login</div></Link>
+                    <Link className='link' to={"/"}><div className='mainFooter-header-div'>About Us</div></Link>
+                    <Link className='link' to={"/"}><div className='mainFooter-header-div'>Seller</div></Link>
                     </div>
                 </div>
             </div>

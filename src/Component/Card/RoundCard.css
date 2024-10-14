@@ -1,6 +1,6 @@
 .box-second-first{
-
-    margin: 20px;
+    width: 200px;
+    /* margin: 20px; */
     display: flex;
     justify-content: center;
     flex-direction: column;

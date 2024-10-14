@@ -13,6 +13,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addData } from "../../redux/slice"
 import { toast } from 'react-toastify';
 import FavoriteBorderSharpIcon from '@mui/icons-material/FavoriteBorderSharp';
+import Marquee from "react-fast-marquee"
 
 
 
@@ -62,19 +63,11 @@ function NewProduct() {
                         View More
                     </div>
                 </div>
-                <div className="product-container" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "90%" }}>
-                    <Swiper
-                        navigation
-                        spaceBetween={0}
-                        slidesPerView={5}
-                        loop={true}
-                        autoplay={true}
-                        modules={[Autoplay, Navigation]}
-                    >
+                <div className="product-container" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "100%" ,}}>
+                        <Marquee pauseOnHover={true}>
                         {
                             newProduct.map((value) => {
                                 return (
-                                    <SwiperSlide>
                                         <div class="product-card">
                                             <div>
                                                 <FavoriteBorderSharpIcon style={{ fontSize: '25px', color: "#999", marginLeft: "90%" }} />
@@ -93,11 +86,10 @@ function NewProduct() {
                                                 </div>
                                             </div>
                                         </div>
-                                    </SwiperSlide>
                                 )
                             })
                         }
-                    </Swiper>
+                        </Marquee>
                 </div>
             </div>
             <div style={{
@@ -118,7 +110,7 @@ function NewProduct() {
                                     <div className='product-name'>{value.name}</div>
                                     <div className='product-price'>&#8377; {value.min_max_price.min_price}</div>
                                     <div className='product-btn'>
-                                        <button>
+                                        <button onClick={() => { handleClick(value) }}>
                                             <AddShoppingCartSharpIcon />Add to Cart
                                         </button>
                                     </div>
@@ -127,11 +119,11 @@ function NewProduct() {
                         )
                     })
                 }
-                <div class="product-card" style={{ display: "flex", justifyContent: "center", flexDirection: "column", height: "400px", paddingLeft: "20px" }}>
+                {/* <div class="product-card" style={{ display: "flex", justifyContent: "center", flexDirection: "column", height: "400px", paddingLeft: "20px" }}>
                     <div className='product-name' style={{ color: "black" }}>Offer</div>
                     <div className='product-price' style={{ color: "#999" }}>Special offer</div>
                     <button style={{ backgroundColor: "white", color: "#49A6A2", fontSize: "18px", fontWeight: "bold", display: "flex", justifyContent: "center", flexDirection: "column", borderStyle: "none" }}>View more</button>
-                </div>
+                </div> */}
             </div>
             <div className='product'>
                 <div className='product-header'>
@@ -160,7 +152,7 @@ function NewProduct() {
                                         <div className='product-name'>{value.name}</div>
                                         <div className='product-price'>&#8377; {value.min_max_price.min_price}</div>
                                         <div className='product-btn'>
-                                            <button>
+                                            <button onClick={() => { handleClick(value) }}>
                                                 <AddShoppingCartSharpIcon />Add to Cart
                                             </button>
                                         </div>

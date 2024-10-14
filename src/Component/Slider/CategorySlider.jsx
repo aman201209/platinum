@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import {  useNavigate } from 'react-router-dom';
+import Marquee from 'react-fast-marquee';
 
 
 
@@ -74,30 +75,15 @@ const CategorySlider = () => {
       </div>
       
       <div className="product-container"  >
- <Swiper
- navigation
-      spaceBetween={10}
-      slidesPerView={7}
-      loop={true}
-      pagination={{
-        clickable: true,
-      }}
-      autoplay={true}
-        modules={[Pagination,Autoplay ,Navigation]}
-        className="mySwiper text-slate-50"
-    >
+
+      <Marquee direction='right'>
       {products.map((product) => {
           return(
-            <>
-           
-            <SwiperSlide key={product.id}>
-            <button style={{borderStyle:"none", backgroundColor:"transparent"}} onClick={()=>{handleClick(product.id)}}><RoundCart product = {product} /></button>
-            </SwiperSlide>
-            </>
+            <div style={{borderStyle:"none", backgroundColor:"transparent"}} onClick={()=>{handleClick(product.id)}}><RoundCart product = {product} /></div>
           )
 })}
+      </Marquee>
       
-    </Swiper>
       </div>
     </div>
   );
