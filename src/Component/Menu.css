@@ -1,0 +1,114 @@
+.menu-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height:160px;
+    position: relative;
+    z-index:0;
+
+}
+.menu-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height:100px;
+}
+.menu-header-first{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    width: 100%;
+    height:100px;
+    margin-left:20px;
+    gap: 50px;
+}
+.menu-header-img{
+    width:160px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.menu-header-img img{
+    width: 100%;
+    height: 68%;
+}
+.menu-search-box{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #bcbbbb;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #bcbbbb;
+    gap: 60%;
+    background-color:#f8f8f8 ;
+}
+.menu-search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-header-second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 50px;
+    gap: 20px;
+}
+.menu-header-second-login{
+    font-size: 20px;
+    color: #49a6a2 ;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #49A6A2 !important;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.menu-header-second-logout{
+    font-size: 20px;
+    color: #49a6a2 ;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #49A6A2 !important;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-header-second-login:hover{
+    color: white;
+    background-color: #49A6A2;
+}
+.menu-header-second-heart{
+    cursor: pointer;
+}
+.menu-header-second-cart{
+    cursor: pointer;
+}
+.menu-footer{
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color:  #49A6A2;
+    color: white;
+    font-size: 24px;
+    gap: 3%;
+}

@@ -1,0 +1,123 @@
+.mainFooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1f2237 !important;
+}
+.mainFooter-first{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+}
+.mainFooter-img{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainFooter-img img{
+    width: 50%;
+}
+.mainFooter-div{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-size: 28px;
+    font-weight: bold;
+}
+.mainFooter-div-div{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: 20px;
+    gap: 160px;
+}
+.mainFooter-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.mainFooter-header-div{
+    font-size: 20px;
+    font-weight: 450;
+    color: white;
+
+}
+.mainFooter-header-div:hover{
+    color: #49a6a2;
+}
+.mainfooter-header-footer{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    gap: 50px;
+}
+.mainFooter-icons{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: row;
+    gap: 30px;
+
+}
+.mainFooter-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.mainFooter-google{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    gap: 20px;
+}
+.mainFooter-last{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.mainFooter-last-first{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 450;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-left: 40px;
+}
+.mainFooter-last-last{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+}

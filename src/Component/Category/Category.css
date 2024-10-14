@@ -1,0 +1,25 @@
+.category{
+    width:100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+}
+.category-div{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:rgb(94, 92, 92);
+    font-weight:bold;
+}
+.category_map{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
